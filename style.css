@@ -1,0 +1,222 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Arima', cursive;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.first-section {
+    /* border: 2px solid red; */
+    /* margin: 10px; */
+    padding: 10px;
+    height: 550px;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 2;
+    color: rgba(244, 255, 212, 0.814);
+    /* display: block; */
+    margin-bottom: 50px;
+}
+
+.first-section .heading {
+    width: 60%;
+    margin: auto;
+    /* border: 2px solid red; */
+    text-align: center;
+    height: 80%;
+    padding: 2%;
+}
+
+.first-section .heading h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.first-section .heading a {
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    background-color: rgba(198, 220, 118, 0.516);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.second-section {
+    /* border: 2px solid rebeccapurple; */
+    height: 400px;
+
+}
+
+.second-section .donating-container {
+    /* border: 2px solid red; */
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.donate-today h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+
+.second-section .donating-container .donate-today {
+    /* border: 2px solid red; */
+}
+
+.second-section .donating-container ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.second-section .donating-container ul li {
+    border: 2px solid green;
+    padding: 19px;
+    /* align-content: center; */
+    margin: auto;
+    background-color: rgb(216, 217, 219);
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.amount {
+    margin-top: 30px;
+}
+
+.amount a {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(216, 217, 219);
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.third-section {
+    /* border: 2px solid green; */
+    height: 400px;
+}
+
+.donation-plan-heading {
+    /* border: 2px solid green; */
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.donation-plan-heading h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.donation-plans {
+    /* border: 2px solid rgb(140, 71, 71); */
+    display: flex;
+    height: 40%;
+
+    /* align-items: center; */
+}
+
+.plan {
+    /* border: 2px solid rgb(212, 255, 0); */
+    border-radius: 10px;
+    text-align: justify;
+    display: block;
+    background-color: rgba(214, 203, 214, 0.914);
+    padding: 15px;
+    margin: 0px 10px;
+
+
+}
+
+.donation-plans :nth-child(2) {
+    background-color: rgba(118, 157, 143, 0.486);
+}
+
+.fourth-section {
+    /* border: 2px solid rgb(212, 255, 0); */
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.volunteer-heading {
+    /* border: 2px solid rgb(255, 7, 7); */
+    width: 50%;
+    text-align: center;
+    margin-left: 40px;
+
+}
+
+.volunteer-image {
+    padding-left: 150px;
+}
+
+.volunteer-btn button {
+    padding: 15px;
+    background-color: rgb(158, 175, 168);
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.updates {
+    /* border: 2px solid rgb(255, 7, 7); */
+    width: 100%;
+    height: 150px;
+    padding-top: 36px;
+
+}
+
+.update2 {
+    /* border: 2px solid rgb(7, 255, 7); */
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.outside-div {
+    /* border: 2px solid rgb(7, 255, 7); */
+    height: 100px;
+    display: flex;
+}
+
+.inside-div {
+    /* border: 2px solid rgb(7, 255, 7); */
+    border-radius: 12px;
+    background-color: rgba(255, 228, 196, 0.693);
+    height: 100%;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    /* align-items: center; */
+}
+
+.email {
+    /* border: 2px solid rgb(7, 255, 7); */
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.email button {
+    background-color: red;
+}
+
+.footer {
+    /* border: 2px solid rgb(7, 255, 7); */
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    margin-top: 30px;
+    height: 100px;
+}
