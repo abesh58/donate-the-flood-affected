@@ -66,9 +66,7 @@ body {
 
 
 
-.second-section .donating-container .donate-today {
-    /* border: 2px solid red; */
-}
+
 
 .second-section .donating-container ul {
     display: flex;
@@ -165,6 +163,7 @@ body {
     background-color: rgb(158, 175, 168);
     font-size: 17px;
     border-radius: 10px;
+
 }
 
 .updates {
